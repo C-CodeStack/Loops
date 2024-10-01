@@ -26,8 +26,8 @@ Now that you have that information lets setup your first `while loop`
 ```javascript
 let word = "Hello"//declare and assign variable
 let i = 0//starting out our counter
-let length = word.length//this will save 5 in i as there is 5 letters in "Hello"
-while (i < length) {//if i < length then then run the code in the while block
+let length = word.length//this will save 5 in length as there is 5 letters in "Hello"
+while (i < length) {//if i < length then run the code in the while block
   console.log(word[i]);//log the 1 letter
   i++//increase i by 1 and save
 }
